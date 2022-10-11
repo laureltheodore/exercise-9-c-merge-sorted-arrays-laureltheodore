@@ -14,7 +14,7 @@ def merge_sort(myList) -> None:
         left = myList[:mid]
         right = myList[mid:]
 
-        # Recursive call on each half
+        # Recursive call on each half    
         merge_sort(left)
         merge_sort(right)
 
