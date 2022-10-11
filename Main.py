@@ -19,7 +19,7 @@ def merge_sort(myList) -> None:
         merge_sort(right)
 
         # Two iterators for traversing the two halves
-        i = 0
+        i = 0 
         j = 0
         
         # Iterator for the main list
