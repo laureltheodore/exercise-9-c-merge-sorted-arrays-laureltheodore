@@ -9,7 +9,7 @@ def merge(nums1: List[int], m: int, nums2: List[int], n: int) -> None:
   return nums1    
   
 def merge_sort(myList) -> None:
-  if len(myList) > 1:
+  if len(myList) > 1:    
         mid = len(myList) // 2
         left = myList[:mid]
         right = myList[mid:]
