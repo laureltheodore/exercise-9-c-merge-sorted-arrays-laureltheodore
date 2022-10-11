@@ -46,7 +46,7 @@ def merge_sort(myList) -> None:
         while j < len(right):
             myList[k]=right[j]
             j += 1
-           k += 2
+           k += 1
            
   return myList
 
